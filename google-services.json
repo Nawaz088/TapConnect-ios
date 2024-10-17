@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "234146325424",
+    "project_id": "tapconnect-cd65e",
+    "storage_bucket": "tapconnect-cd65e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234146325424:android:cf8b4f2bcb1e541c8cac75",
+        "android_client_info": {
+          "package_name": "com.abdulmuqeetmunshi.tapconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234146325424-mk5am2h9h01k0cr4psth1pdcfq0v2cd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdulmuqeetmunshi.tapconnect",
+            "certificate_hash": "eb8dd447debf80d9091f1632faa2879448050e80"
+          }
+        },
+        {
+          "client_id": "234146325424-t9k4364atfg3gfq0hb15uhu5rb08630j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbsay6eBGuDk352ak40iZqMayeoxe2I9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234146325424-t9k4364atfg3gfq0hb15uhu5rb08630j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "234146325424-6qmku9arsips3ia9uj3cimrhfqcfh812.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.abdulmuqeetmunshi.tapconnect"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

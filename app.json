@@ -1,0 +1,128 @@
+{
+  "expo": {
+    "name": "tapconnect",
+    "slug": "tapconnect",
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "tap-connect",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "linking": {
+      "enabled": true
+    },
+    "ios": {
+      "builingNumber": "5",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abdulmuqeetmunshi.tapconnect",
+      "googleServicesFile": "GoogleService-Info.plist",
+      "atss": {
+        "enabled": true
+      },
+      "infoPlist": {
+        "NSAllowsArbitraryLoads": true,
+        "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access your camera.",
+        "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to access your microphone",
+        "NSPhotoLibraryUsageDescription": "The app accesses your photos to let you share them with your friends.",
+        "NSContactsUsageDescription": "The app accesses your contacts to let you share them with your friends.",
+        "NFCReaderUsageDescription": "Allow $(PRODUCT_NAME) to scan NFC tags.",
+        "NSPhotoLibraryAddUsageDescription": "The app accesses your photos to let you share them with your friends."
+      }
+    },
+    "android": {
+      "versionCode": 10,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS"
+      ],
+      "package": "com.abdulmuqeetmunshi.tapconnect"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera.",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "@react-native-google-signin/google-signin"
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "expo-secure-store",
+        {
+          "faceIDPermission": "Allow $(PRODUCT_NAME) to access your Face ID biometric data."
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Roboto-Medium.ttf", "./assets/fonts/Roboto-Regular.ttf"]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5470fdda-a732-48e3-80e9-75fe3ffdbb3c"
+      }
+    }
+  }
+}

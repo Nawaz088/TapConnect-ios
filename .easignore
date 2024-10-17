@@ -1,0 +1,27 @@
+./node_modules
+./assets
+
+# Exclude local build output
+android/build/
+ios/build/
+
+# Exclude configuration and environment files
+*.env
+*.env.local
+
+# Exclude test files and folders
+__tests__/
+tests/
+
+# Exclude other unnecessary files
+.git/
+.gitignore
+*.log
+.DS_Store
+yarn.lock
+package-lock.json
+
+# Exclude any other build artifacts
+*.apk
+*.aab
+*.ipa
